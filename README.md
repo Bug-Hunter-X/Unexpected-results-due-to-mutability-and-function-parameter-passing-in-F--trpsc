@@ -1,0 +1,1 @@
+This example demonstrates a common issue in F# related to mutability and how function parameters are handled.  The `add` function is called with the initial values of `x` and `y`, and subsequent changes to these variables do not affect the result of the `add` function call.  The solution showcases how to handle this using mutable references or by passing updated values.
